@@ -1,8 +1,9 @@
 public class lasky_PrintStack<T> extends LinkedStackClass<T>
 {
   
-  public void printStack(T theStack)
+  public void printStack()
   {
+    LinkedStackClass<Integer> theStack =  StackNode<T> info;
     LinkedStackClass<Integer> theTempStack = new LinkedStackClass<Integer>();
     while(!theStack.isEmptyStack())
     {
@@ -20,5 +21,3 @@ public class lasky_PrintStack<T> extends LinkedStackClass<T>
    
   }
 }
-    
-

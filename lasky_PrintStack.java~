@@ -1,7 +1,7 @@
-public class lasky_PrintStack extends LinkedStackClass
+public class lasky_PrintStack<T> extends LinkedStackClass<T>
 {
   
-  public void printStack(LinkedStackClass<Integer> theStack)
+  public void printStack(T theStack)
   {
     LinkedStackClass<Integer> theTempStack = new LinkedStackClass<Integer>();
     while(!theStack.isEmptyStack())

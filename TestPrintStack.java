@@ -11,7 +11,7 @@ public class TestPrintStack
   System.out.println("Starting with the top of the stack the contents of each stack in order are: ");
   try
   {
-    printStack(LinkedStackClass<T> origStack);
+    printStack();
   }
   catch (StackUnderflowException l)
   {
